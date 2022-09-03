@@ -6,9 +6,9 @@ var arr = ["test","let", "var", "sent", "read","javascript","frontend","backend"
             "linkedin","facebook","instagram","google","yahoo","zoom", "congratulations", "comfortable", "communication", "comment","database","dataset",
             "w3schools","react","ASP.Net","Vue","Angular","web development","web design","const","transform","transtion","display","dashboard","container",
 "birthday","party","connection","developer","box shadow","border box","have fun","getready","window","document"];
-var mediumArr = ["go","here","they","our","them","Arithmetic","operators","Assignment","Augmented ","reality" ,"Autonomous","Binary"," numbers","Ultimate",
+var mediumArr = ["go","here","they","our","them","Arithmetic","operators","Assignment","Augmented","reality" ,"Autonomous","Binary"," numbers","Ultimate",
 "Computer","Programming","Search","Monster","Word","English","Top","byte","assert","abstract","continue","char","catch","extends","do","double","goto","finally","eng","doing","extends",
-"final","interface","import","implements"," Java","OOP","Translation" ,"dynamically","lets"," trained ","custom","must go"," content"," languages","models"];
+"final","interface","import","implements"," Java","OOP","Translation" ,"dynamically","lets","trained","custom","must go"," content","languages","models"];
 var hardArr = ["gohard","this is","good","very","backg","i am fine","welcome","great job","very good","do your best","good for you","amazing","In the Afternoon","In the evening","cooks dinner"
 ,"boil the rice","sometimes","phone calls","my sleeping time","Other activities","different days","Weekend","Saturday","I get up at nine","half-past twelve","I watch TV","watch a movie",
 "with my family","make my breakfast","For this code","For a long","I worked on","multiple resources","Credit goes","this solution","far longer to","Filtered pixel","Real pixel","color applied",
@@ -235,6 +235,7 @@ document.getElementById("sent").onclick = function () {
         selectTheLevel();
         window.localStorage.setItem("userName", name);
         document.getElementById("theName").innerHTML = name;
+        document.getElementById("foot").style.position="fixed";
     }
 }
 

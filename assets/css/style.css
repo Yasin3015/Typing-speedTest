@@ -13,7 +13,7 @@
         border-radius: 50%;
         border: none;
         background-color: inherit;
-        position: fixed;
+        position: absolute;
         right: 30px;
         top: 10px;
         z-index: 15;

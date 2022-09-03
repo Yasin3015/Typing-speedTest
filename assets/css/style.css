@@ -262,6 +262,38 @@
             text-transform: capitalize;
         }   
     /* ///// end styling task result page page ///////// */
+    /* ////////////////start footer////////////////// */
+        footer{
+            font-size: 20px;
+            text-align: center;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            padding: 30px !important;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            padding-left: 20px;
+            position: relative;
+            left: 0;
+            z-index: 20;
+            bottom: 0;
+        }
+        footer p{
+            display: inline-block;
+            height: 60px;
+            width: fit-content;
+            padding-top: 30px;
+            font-size: 20px;
+            margin-right: 0px !important;
+        }
+        
+        footer a img{
+            display: inline-block;
+            margin-top: 20px;
+            height: 60px;
+        }
+    /* //////////////////end footer///////////////// */
 /* ************************************** */
 /* ********* large and Xl screens********* */
 /* ************************************** */
